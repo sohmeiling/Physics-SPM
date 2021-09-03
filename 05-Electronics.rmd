@@ -1,0 +1,33 @@
+---
+title: "05-Electronics"
+author: "MeiLing"
+date: "8/28/2021"
+output: html_document
+---
+# Electronics
+
+## Electron
+
+### Thermionic Emission
+
+Thermionic emission is the emission of electrons from a heated metal (cathode). 
+
+### Cathode Ray
+
+### Cathode Ray Oscilloscope (CRO)
+
+## Semiconductor Diode
+
+### Forward Biased vs. Reverse Biased
+
+### Rectification
+
+### Smoothing using capacitor
+
+## Transistor
+
+### NPN vs PNP transistor
+
+### Structure of transistor circuit
+
+### Use of transistor
