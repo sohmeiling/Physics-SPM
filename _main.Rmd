@@ -1,3 +1,83 @@
+--- 
+title: "Learning Physics Through Simulation for High Schoolers"
+subtitle: "spm-physics books"
+author: "Mei Ling"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apa
+csl: include/apa.csl
+link-citations: yes
+description: "Textbook on Physics for SPM students"
+url: "https://sohmeiling.github.io/Physics-SPM"
+github-repo: "sohmeiling/Physics-SPM"
+
+---
+
+# Overview {-}
+
+Placeholder
+
+
+## How to cite this book {-}
+## ## Found an issue? {-}
+## Information for educators {-}
+
+<!--chapter:end:index.Rmd-->
+
+# Force and Motion II
+
+## Resultant Force
+
+## Resolution of Forces
+
+## Forces in Equilibrium
+
+## Elasticity
+
+## Practice
+
+<!--chapter:end:01-Forces-and-motion-2.Rmd-->
+
+# Pressure
+
+## Pressure in Liquid
+
+## Atmospheric Pressure
+
+## Gas Pressure
+
+## Pascal's Principle
+
+## Archimedes' Principle
+
+## Bernoulli's Principle
+
+<!--chapter:end:02-Pressure.Rmd-->
+
+# Electricity
+
+## Current and Potential Difference
+
+## Resistance
+
+## Electromotive Force (e.m.f) and Internal Resistance
+
+## Electrical Energy and Power
+
+<!--chapter:end:03-Electricity.Rmd-->
+
+# Electromagnetism
+
+## Force on Current-carrying conductor in a Magnetic Field
+
+## Electromagnetic Induction
+
+## Transformer
+
+<!--chapter:end:04-Electromagnetism.Rmd-->
+
 # Electronics
 
 ## What you will learn
@@ -55,7 +135,7 @@ There are **four** factors that affect the rate of thermionic emission.
 
 Here's a short video from Youtube about thermionic emission.
 
-![](https://www.youtube.com/watch?v=QhG7u9PXG88){width:"70%"}
+![](https://www.youtube.com/watch?v=QhG7u9PXG88)
 
 ### Cathode Ray
 
@@ -104,3 +184,6 @@ See what happens to the electron beams in the presence of a magnet
 ### Structure of transistor circuit
 
 ### Use of transistor
+
+<!--chapter:end:05-Electronics.rmd-->
+
