@@ -3,8 +3,8 @@ new_session: yes
 output_dir: "docs"
 before_chapter_script: ["R/teachstem_setup.R", "R/my_setup.R"]
 delete_merged_file: true
-view: https://github.com/sohmeiling/Physics-SPM/master/%s
-edit: https://github.com/sohmeiling/Physics-SPM/master/%s
+view: https://github.com/sohmeiling/Physics-SPM/blob/master/%s
+edit: https://github.com/sohmeiling/Physics-SPM/edit/master/%s
 clean: ["_bookdown_files", "packages.bib"]
 language:
   ui:
