@@ -43,4 +43,6 @@ If you find errors or typos, have questions or suggestions, please file an issue
 
 You are free to re-use and modify the material in this textbook for your own purposes, with the stipulation that you **cite** the original work. Please note additional terms of the [Creative Commons CC-BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/) governing re-use of this material.
 
-The book was built using the R [**`bookdown`**](https://bookdown.org) package. The source files are available at [github](https://github.com/sohmeiling/Physics-SPM).
+The book was built using the R [**`bookdown`**](https://bookdown.org) package. This output format is built with Bootstrap, using carefully crafted features to provide a clean reading experience whether you are on a phone, tablet, or desktop. To read more about this format, see: https://bookdown.org/yihui/bookdown/html.html#bootstrap4-style. 
+
+The source files are available at [github](https://github.com/sohmeiling/Physics-SPM).
