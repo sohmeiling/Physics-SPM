@@ -19,6 +19,6 @@ bookdown::pdf_book:
   keep_tex: yes
 bookdown::epub_book:
   stylesheet: [include/epub.css]
-  cover_image: #images/atom-icon.png
+  cover_image: images/atom-icon.png
   toc: true
   toc_depth: 2
