@@ -14,15 +14,6 @@ a {
   text-decoration: underline;
 }
 
-a.glossary {
-  font-style: italic;
-}
-
-a[target="_blank"]:not(.glossary) {
-  font-variant: small-caps;
-}
-
-
 pre {
   border: 2px solid grey !important;
   border-radius: 5px;

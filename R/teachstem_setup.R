@@ -4,7 +4,6 @@
 suppressPackageStartupMessages({
   library(tidyverse)
   library(webex)
-  library(glossary)
 })
 
 # default knitr options

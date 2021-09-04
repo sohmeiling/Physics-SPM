@@ -21,7 +21,6 @@ github-repo: "sohmeiling/Physics-SPM"
 suppressPackageStartupMessages({
   library(tidyverse)
   library(webex)
-  library(glossary)
 })
 
 # default knitr options
@@ -164,7 +163,6 @@ The source files are available at [github](https://github.com/sohmeiling/Physics
 suppressPackageStartupMessages({
   library(tidyverse)
   library(webex)
-  library(glossary)
 })
 
 # default knitr options
@@ -286,7 +284,6 @@ chapter_status <- function(status = "finished") {
 suppressPackageStartupMessages({
   library(tidyverse)
   library(webex)
-  library(glossary)
 })
 
 # default knitr options
@@ -410,7 +407,6 @@ chapter_status <- function(status = "finished") {
 suppressPackageStartupMessages({
   library(tidyverse)
   library(webex)
-  library(glossary)
 })
 
 # default knitr options
@@ -530,7 +526,6 @@ chapter_status <- function(status = "finished") {
 suppressPackageStartupMessages({
   library(tidyverse)
   library(webex)
-  library(glossary)
 })
 
 # default knitr options
@@ -648,7 +643,6 @@ chapter_status <- function(status = "finished") {
 suppressPackageStartupMessages({
   library(tidyverse)
   library(webex)
-  library(glossary)
 })
 
 # default knitr options

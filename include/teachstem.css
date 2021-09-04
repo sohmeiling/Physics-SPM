@@ -129,13 +129,3 @@ a[target="_blank"]::after {
   font-family:"Font Awesome 5 Free";
   content:"\f360"; /* f35d or  f360*/
 }
-
-a.glossary::after {
-  content: none !important;
-  margin: 0 !important;
-}
-
-a.glossary, a:visited.glossary {
-  color: var(--purple) !important;
-}
-
