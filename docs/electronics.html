@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 5 Electronics | Learning Physics Through Simulation for High Schoolers</title>
+<meta name="author" content="Mei Ling">
+<meta name="description" content="5.1 What you will learn By the end of this chapter, you should be able to: explain thermionic emission understand the mechanisms of cathode ray tube and cathode ray oscilloscope specify the...">
+<meta name="generator" content="bookdown 0.24 with bs4_book()">
+<meta property="og:title" content="Chapter 5 Electronics | Learning Physics Through Simulation for High Schoolers">
+<meta property="og:type" content="book">
+<meta property="og:url" content="https://sohmeiling.github.io/Physics-SPM/electronics.html">
+<meta property="og:description" content="5.1 What you will learn By the end of this chapter, you should be able to: explain thermionic emission understand the mechanisms of cathode ray tube and cathode ray oscilloscope specify the...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 5 Electronics | Learning Physics Through Simulation for High Schoolers">
+<meta name="twitter:description" content="5.1 What you will learn By the end of this chapter, you should be able to: explain thermionic emission understand the mechanisms of cathode ray tube and cathode ray oscilloscope specify the...">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.10/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.2.5.1/tabs.js"></script><script src="libs/bs3compat-0.2.5.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-6NP3MF25W3"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6NP3MF25W3');
+    </script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><link rel="stylesheet" href="include/teachstem.css">
+<link rel="stylesheet" href="include/webex.css">
+<link rel="stylesheet" href="include/style.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="SPM-physics book">Learning Physics Through Simulation for High Schoolers</a>:
+        <small class="text-muted">SPM-physics book</small>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Overview</a></li>
+<li><a class="" href="force-and-motion.html"><span class="header-section-number">1</span> Force and Motion</a></li>
+<li><a class="" href="pressure.html"><span class="header-section-number">2</span> Pressure</a></li>
+<li><a class="" href="electricity.html"><span class="header-section-number">3</span> Electricity</a></li>
+<li><a class="" href="electromagnetism.html"><span class="header-section-number">4</span> Electromagnetism</a></li>
+<li><a class="active" href="electronics.html"><span class="header-section-number">5</span> Electronics</a></li>
+</ul>
+
+        <div class="book-extra">
+          <p><a id="book-repo" href="https://github.com/sohmeiling/Physics-SPM">View book source <i class="fab fa-github"></i></a></p>
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="electronics" class="section level1" number="5">
+<h1>
+<span class="header-section-number">5</span> Electronics<a class="anchor" aria-label="anchor" href="#electronics"><i class="fas fa-link"></i></a>
+</h1>
+<div id="what-you-will-learn" class="section level2" number="5.1">
+<h2>
+<span class="header-section-number">5.1</span> What you will learn<a class="anchor" aria-label="anchor" href="#what-you-will-learn"><i class="fas fa-link"></i></a>
+</h2>
+<p>By the end of this chapter, you should be able to:</p>
+<ul>
+<li>explain thermionic emission</li>
+<li>understand the mechanisms of cathode ray tube and cathode ray oscilloscope</li>
+<li>specify the characteristics of cathode ray</li>
+<li>understand the function of semiconductor diode</li>
+<li>differentiate forward bias and reverse bias</li>
+<li>read the figures of rectification of alternating current</li>
+<li>know the purpose of a capacitor for smoothing</li>
+<li>know the difference between npn and pnp transistors</li>
+<li>draw and specify the mechanism of transistor circuit</li>
+<li>understand the uses of transistor as current amplifier, automatic switch, light-controlled switch, heat-controlled switch</li>
+</ul>
+</div>
+<div id="electron" class="section level2" number="5.2">
+<h2>
+<span class="header-section-number">5.2</span> Electron<a class="anchor" aria-label="anchor" href="#electron"><i class="fas fa-link"></i></a>
+</h2>
+<p>All materials are composed of atoms (made up of nucleus and surrounded by electrons). At different shells, the electrons possess different energy level.</p>
+<div class="figure" style="text-align: center">
+<span style="display:block;" id="fig:atom-str"></span>
+<img src="images/atom-setup.png" alt="A figure of an atoms with nucleus and surrounded by electrons" width="80%"><p class="caption">
+Figure 5.1: A atom is made up of nucleus in the center and surrounded by electrons
+</p>
+</div>
+<div class="figure">
+<img src="images/atom-setup.png" style="width:60.0%" alt=""><p class="caption">Source: <a href="https://www.pngfind.com/download/howwhTh_los-quarks-quarks-protones-neutrones-y-los-leptones/">pngfind.com</a></p>
+</div>
+<div id="thermionic-emission" class="section level3" number="5.2.1">
+<h3>
+<span class="header-section-number">5.2.1</span> Thermionic Emission<a class="anchor" aria-label="anchor" href="#thermionic-emission"><i class="fas fa-link"></i></a>
+</h3>
+<p>Thermionic emission is the emission of electrons from a heated metal with high level of thermal energy.</p>
+<p>At room temperature, the energy processed by the electrons in the metal is insufficient for thermionic emission. When a metal is heated, the electrons gain thermal energy. The increase in thermal energy leads to the increase of kinetic energy. Once sufficient thermal energy is supplied to the metal, the electrons gain enough energy to overcome the force of attraction between proton in the nucleus and electrons. Thus, the electrons escape to become free electrons.</p>
+<div class="figure">
+<img src="images/electron-emission.png" style="width:70.0%" alt=""><p class="caption">Source: <a href="https://www.electrical4u.com/thermionic-emission/">electrical4u.com</a></p>
+</div>
+<p>There are <strong>four</strong> factors that affect the rate of thermionic emission.</p>
+<ul>
+<li>
+<p><strong>The temperature of the metal</strong></p>
+<ul>
+<li>As the temperature of the metal increases, the emission rate of electrons also increases.</li>
+</ul>
+</li>
+<li>
+<p><strong>The total surface area of the metal</strong></p>
+<ul>
+<li>As the total surface area of the metal increases, the emission rate of electrons also increases.</li>
+</ul>
+</li>
+<li>
+<p><strong>The type of metal</strong></p>
+<ul>
+<li>Different type of metals emits electrons at different rates.</li>
+</ul>
+</li>
+<li>
+<p><strong>The coating on the surface of the metal</strong></p>
+<ul>
+<li>A layer coating of barium oxide (BaO) or strontium oxide(SrO) increases the rate of thermionic emission.</li>
+</ul>
+</li>
+</ul>
+<p>Here's a short video from Youtube about thermionic emission.</p>
+<div class="inline-figure">
+<img src="https://www.youtube.com/watch?v=QhG7u9PXG88">{width:"70%"}</div>
+</div>
+<div id="cathode-ray" class="section level3" number="5.2.2">
+<h3>
+<span class="header-section-number">5.2.2</span> Cathode Ray<a class="anchor" aria-label="anchor" href="#cathode-ray"><i class="fas fa-link"></i></a>
+</h3>
+<p>The characteristics of cathode ray include:</p>
+<ol style="list-style-type: decimal">
+<li><p>Cathode ray is a negatively-charged electron beam.</p></li>
+<li><p>Cathode ray can be deflected by the electric field.</p></li>
+<li><p>cathode ray can be deflected by the magnetic field. The direction of deflection can be determined by the Fleming's Left-hand Rule.</p></li>
+<li><p>Cathode ray moves in a straight line and form a sharp shadow.</p></li>
+<li><p>Cathode ray moves at high speed (high kinetic energy).</p></li>
+<li><p>Cathode ray can produce a fluorescent effect when the electron beam hits the fluorescent screen.</p></li>
+</ol>
+</div>
+<div id="cathode-ray-oscilloscope-cro" class="section level3" number="5.2.3">
+<h3>
+<span class="header-section-number">5.2.3</span> Cathode Ray Oscilloscope (CRO)<a class="anchor" aria-label="anchor" href="#cathode-ray-oscilloscope-cro"><i class="fas fa-link"></i></a>
+</h3>
+<p>It will be great if you can learn how to draw the CRO. It will help you to be familiarize with the electron gun, deflection system, and fluorosecence screen that make up the CRO.</p>
+<p>See the great video below by alharony in youtube about CRO.</p>
+<div class="inline-figure"><img src="https://www.youtube.com/watch?v=U1amW7S1fcI"></div>
+</div>
+<div id="electromagnetic-deflection-in-a-cathode-ray-tube" class="section level3" number="5.2.4">
+<h3>
+<span class="header-section-number">5.2.4</span> Electromagnetic Deflection in a Cathode Ray Tube<a class="anchor" aria-label="anchor" href="#electromagnetic-deflection-in-a-cathode-ray-tube"><i class="fas fa-link"></i></a>
+</h3>
+<p>See what happens to the electron beams in the presence of a magnet</p>
+<p><a href="https://nationalmaglab.org/education/magnet-academy/watch-play/interactive/electromagnetic-deflection-in-a-cathode-ray-tube-i">electromagnetic deflection</a></p>
+<p><a href="https://nationalmaglab.org/html5/MagLabU/includes/js/jquery.min.js" class="uri">https://nationalmaglab.org/html5/MagLabU/includes/js/jquery.min.js</a></p>
+</div>
+</div>
+<div id="semiconductor-diode" class="section level2" number="5.3">
+<h2>
+<span class="header-section-number">5.3</span> Semiconductor Diode<a class="anchor" aria-label="anchor" href="#semiconductor-diode"><i class="fas fa-link"></i></a>
+</h2>
+<div id="forward-biased-vs.-reverse-biased" class="section level3" number="5.3.1">
+<h3>
+<span class="header-section-number">5.3.1</span> Forward Biased vs. Reverse Biased<a class="anchor" aria-label="anchor" href="#forward-biased-vs.-reverse-biased"><i class="fas fa-link"></i></a>
+</h3>
+</div>
+<div id="rectification" class="section level3" number="5.3.2">
+<h3>
+<span class="header-section-number">5.3.2</span> Rectification<a class="anchor" aria-label="anchor" href="#rectification"><i class="fas fa-link"></i></a>
+</h3>
+</div>
+<div id="smoothing-using-capacitor" class="section level3" number="5.3.3">
+<h3>
+<span class="header-section-number">5.3.3</span> Smoothing using capacitor<a class="anchor" aria-label="anchor" href="#smoothing-using-capacitor"><i class="fas fa-link"></i></a>
+</h3>
+</div>
+</div>
+<div id="transistor" class="section level2" number="5.4">
+<h2>
+<span class="header-section-number">5.4</span> Transistor<a class="anchor" aria-label="anchor" href="#transistor"><i class="fas fa-link"></i></a>
+</h2>
+<div id="npn-vs-pnp-transistor" class="section level3" number="5.4.1">
+<h3>
+<span class="header-section-number">5.4.1</span> NPN vs PNP transistor<a class="anchor" aria-label="anchor" href="#npn-vs-pnp-transistor"><i class="fas fa-link"></i></a>
+</h3>
+</div>
+<div id="structure-of-transistor-circuit" class="section level3" number="5.4.2">
+<h3>
+<span class="header-section-number">5.4.2</span> Structure of transistor circuit<a class="anchor" aria-label="anchor" href="#structure-of-transistor-circuit"><i class="fas fa-link"></i></a>
+</h3>
+</div>
+<div id="use-of-transistor" class="section level3" number="5.4.3">
+<h3>
+<span class="header-section-number">5.4.3</span> Use of transistor<a class="anchor" aria-label="anchor" href="#use-of-transistor"><i class="fas fa-link"></i></a>
+</h3>
+
+</div>
+</div>
+</div>
+<script>
+
+/* update total correct if #webex-total_correct exists */
+update_total_correct = function() {
+  if (t = document.getElementById("webex-total_correct")) {
+    t.innerHTML =
+      document.getElementsByClassName("webex-correct").length + " of " +
+      document.getElementsByClassName("webex-solveme").length + " correct";
+  }
+}
+
+/* webex-solution button toggling function */
+b_func = function() {
+  var cl = this.parentElement.classList;
+  if (cl.contains('open')) {
+    cl.remove("open");
+  } else {
+    cl.add("open");
+  }
+}
+
+/* function for checking solveme answers */
+solveme_func = function(e) {
+  var real_answers = JSON.parse(this.dataset.answer);
+  var my_answer = this.value;
+  var cl = this.classList;
+  if (cl.contains("ignorecase")) {
+    my_answer = my_answer.toLowerCase();
+  }
+  if (cl.contains("nospaces")) {
+    my_answer = my_answer.replace(/ /g, "")
+  }
+
+  if (my_answer == "") {
+    cl.remove("webex-correct");
+    cl.remove("webex-incorrect");
+  } else if (real_answers.includes(my_answer)) {
+    cl.add("webex-correct");
+    cl.remove("webex-incorrect");
+  } else {
+    cl.add("webex-incorrect");
+    cl.remove("webex-correct");
+  }
+
+  // match numeric answers within a specified tolerance
+  if(this.dataset.tol > 0){
+    var tol = JSON.parse(this.dataset.tol);
+    var matches = real_answers.map(x => Math.abs(x - my_answer) < tol)
+    if (matches.reduce((a, b) => a + b, 0) > 0) {
+      cl.add("webex-correct");
+    } else {
+      cl.remove("webex-correct");
+    }
+  }
+
+  // added regex bit
+  if (cl.contains("regex")){
+    answer_regex = RegExp(real_answers.join("|"))
+    if (answer_regex.test(my_answer)) {
+      cl.add("webex-correct");
+    }
+  }
+
+  update_total_correct();
+}
+
+window.onload = function() {
+  /* set up solution buttons */
+  var buttons = document.getElementsByTagName("button");
+
+  for (var i = 0; i < buttons.length; i++) {
+    if (buttons[i].parentElement.classList.contains('webex-solution')) {
+      buttons[i].onclick = b_func;
+    }
+  }
+
+  /* set up webex-solveme inputs */
+  var solveme = document.getElementsByClassName("webex-solveme");
+
+  for (var i = 0; i < solveme.length; i++) {
+    /* make sure input boxes don't auto-anything */
+    solveme[i].setAttribute("autocomplete","off");
+    solveme[i].setAttribute("autocorrect", "off");
+    solveme[i].setAttribute("autocapitalize", "off");
+    solveme[i].setAttribute("spellcheck", "false");
+    solveme[i].value = "";
+
+    /* adjust answer for ignorecase or nospaces */
+    var cl = solveme[i].classList;
+    var real_answer = solveme[i].dataset.answer;
+    if (cl.contains("ignorecase")) {
+      real_answer = real_answer.toLowerCase();
+    }
+    if (cl.contains("nospaces")) {
+      real_answer = real_answer.replace(/ /g, "");
+    }
+    solveme[i].dataset.answer = real_answer;
+
+    /* attach checking function */
+    solveme[i].onkeyup = solveme_func;
+    solveme[i].onchange = solveme_func;
+  }
+
+  update_total_correct();
+}
+
+</script><script>
+$( document ).ready(function() {
+  var cite = ' ';
+  var psyteachr = ' <a href="https://sohmeiling.github.io/"><img src="images/atom-icon.png" style="height: 31px; color: white;" alt="Open Science: Physics Textbook" /></a>';
+  var license = ' <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" target="blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"></a>';
+
+  $("footer div.row div:eq(1) p").html(
+    psyteachr + license + cite
+  );
+});
+</script><div class="chapter-nav">
+<div class="prev"><a href="electromagnetism.html"><span class="header-section-number">4</span> Electromagnetism</a></div>
+<div class="empty"></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#electronics"><span class="header-section-number">5</span> Electronics</a></li>
+<li><a class="nav-link" href="#what-you-will-learn"><span class="header-section-number">5.1</span> What you will learn</a></li>
+<li>
+<a class="nav-link" href="#electron"><span class="header-section-number">5.2</span> Electron</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#thermionic-emission"><span class="header-section-number">5.2.1</span> Thermionic Emission</a></li>
+<li><a class="nav-link" href="#cathode-ray"><span class="header-section-number">5.2.2</span> Cathode Ray</a></li>
+<li><a class="nav-link" href="#cathode-ray-oscilloscope-cro"><span class="header-section-number">5.2.3</span> Cathode Ray Oscilloscope (CRO)</a></li>
+<li><a class="nav-link" href="#electromagnetic-deflection-in-a-cathode-ray-tube"><span class="header-section-number">5.2.4</span> Electromagnetic Deflection in a Cathode Ray Tube</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#semiconductor-diode"><span class="header-section-number">5.3</span> Semiconductor Diode</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#forward-biased-vs.-reverse-biased"><span class="header-section-number">5.3.1</span> Forward Biased vs. Reverse Biased</a></li>
+<li><a class="nav-link" href="#rectification"><span class="header-section-number">5.3.2</span> Rectification</a></li>
+<li><a class="nav-link" href="#smoothing-using-capacitor"><span class="header-section-number">5.3.3</span> Smoothing using capacitor</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#transistor"><span class="header-section-number">5.4</span> Transistor</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#npn-vs-pnp-transistor"><span class="header-section-number">5.4.1</span> NPN vs PNP transistor</a></li>
+<li><a class="nav-link" href="#structure-of-transistor-circuit"><span class="header-section-number">5.4.2</span> Structure of transistor circuit</a></li>
+<li><a class="nav-link" href="#use-of-transistor"><span class="header-section-number">5.4.3</span> Use of transistor</a></li>
+</ul>
+</li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+<li><a id="book-source" href="https://github.com/sohmeiling/Physics-SPM/blob/master/05-Electronics.rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/sohmeiling/Physics-SPM/edit/master/05-Electronics.rmd">Edit this page <i class="fab fa-github"></i></a></li>
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>Learning Physics Through Simulation for High Schoolers</strong>: SPM-physics book" was written by Mei Ling. It was last built on 2021-09-04.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer>
+</body>
+</html>

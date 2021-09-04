@@ -2,7 +2,7 @@
 title: "Learning Physics Through Simulation for High Schoolers"
 subtitle: "SPM-physics book"
 author: "Mei Ling"
-date: "`r Sys.Date()`"
+date: "2021-09-04"
 site: bookdown::bs4_book
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -15,15 +15,7 @@ github-repo: "sohmeiling/Physics-SPM"
 
 ---
 
-```{r cite-packages, include = FALSE}
-# automatically create a bib database for R packages
-# add any packages you want to cite here
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'tidyverse', 'kableExtra'
-), 'packages.bib')
 
-
-```
 
 
 # Overview {-}
