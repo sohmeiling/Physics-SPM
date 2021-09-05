@@ -99,11 +99,14 @@ See the great video below by (alharony)(https://www.youtube.com/channel/UCuZUDL8
 
 <div class="info">
 <p><strong>Additional Material</strong></p>
-<p>You can explore how the electron gun is used to emit the electrons</p>
+<p>You can explore how the electron gun is used to emit the electrons below. The experiment is more complicated than what you need to know for SPM but it is worth exploring for the curious mind. The awesome simulation is provided by <a href="https://virtuelle-experimente.de/en/index.php">Ludwig-Maximilians-Universität München</a>.</p>
+<p>In the first page, you will see the electron gun setup. You can click on the <code>info</code> icon for more information.</p>
+<p>If you click next, you should reach a page on the simulation (page 3). Play around with the heater voltage and acceleration voltage and observe how the emission of electron beams changes.</p>
+<p>The explanation is at the later pages.</p>
 </div>
 
 <div class="figure" style="text-align: center">
-<iframe src="https://virtuelle-experimente.de/en/kanone/klassisch/aufbau.php" width="100%" height="400px"></iframe>
+<iframe src="https://virtuelle-experimente.de/en/kanone/klassisch/aufbau.php" width="100%" height="600px"></iframe>
 <p class="caption">(\#fig:add-gun)A complicated simulation of electron gun</p>
 </div>
 
@@ -113,8 +116,6 @@ See the great video below by (alharony)(https://www.youtube.com/channel/UCuZUDL8
 How do we prove that cathode ray is a negatively-charged beam? Let's conduct the experiment using the simulation by [The Concord Consortium](https://concord.org/). 
 
 In this simulation, we are using Crookes Tube, which is a similar set-up to Thomson's experiment. It is through this experiment that Thomson discovered electron. 
-
-<iframe src="https://lab.concord.org/embeddable.html#interactives/interactions/crookesElectrodes.json?showcase=0" width="100%" height="600px"></iframe>
 
 
 <div class="try">
@@ -142,7 +143,12 @@ In this simulation, we are using Crookes Tube, which is a similar set-up to Thom
 </div>
 
 
+<iframe src="https://lab.concord.org/embeddable.html#interactives/interactions/crookesElectrodes.json?showcase=0" width="100%" height="600px"></iframe>
 
+
+**How does electrons propagate in the absence of any electric or magnetic field?**
+
+A Maltese Cross Tube (also known as Shadow Cross Tube) is used to answer this question. A electron gun produces an unfocused diverging beam which is detected by a fluorescent screen at the end of the evacuated tube. In the center of the bulb an aluminum cross is suspended. A high voltage is applied between the cathode (narrow end of the tube) and the anode (on the support, mid-way through the tube). The cross will obstruct the electron flow, creating a shadow on the fluorescent screen at the end of the tube.
 
 <div class="info">
 <h4 id="effect-of-magnetic-field-on-the-cathode-rays">Effect of Magnetic Field on the Cathode Rays</h4>
