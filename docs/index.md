@@ -2,7 +2,7 @@
 title: "Learning Physics Through Simulation for High Schoolers"
 subtitle: "SPM-physics book"
 author: "Mei Ling"
-date: "2021-09-04"
+date: "2021-09-05"
 site: bookdown::bs4_book
 documentclass: book
 bibliography: [book.bib, packages.bib]

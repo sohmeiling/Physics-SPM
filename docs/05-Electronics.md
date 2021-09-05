@@ -24,7 +24,7 @@ All materials are composed of atoms (made up of nucleus and surrounded by electr
 <p class="caption">(\#fig:atom-str)A atom is made up of nucleus in the center and surrounded by electrons</p>
 </div>
 
-![Source: [pngfind.com](https://www.pngfind.com/download/howwhTh_los-quarks-quarks-protones-neutrones-y-los-leptones/)](images/atom-setup.png){width="60%"}
+Source: [pngfind.com](https://www.pngfind.com/download/howwhTh_los-quarks-quarks-protones-neutrones-y-los-leptones/)
 
 ### Thermionic Emission
 
@@ -32,7 +32,13 @@ Thermionic emission is the emission of electrons from a heated metal with high l
 
 At room temperature, the energy processed by the electrons in the metal is insufficient for thermionic emission. When a metal is heated, the electrons gain thermal energy. The increase in thermal energy leads to the increase of kinetic energy. Once sufficient thermal energy is supplied to the metal, the electrons gain enough energy to overcome the force of attraction between proton in the nucleus and electrons. Thus, the electrons escape to become free electrons.
 
-![Source: [electrical4u.com](https://www.electrical4u.com/thermionic-emission/)](images/electron-emission.png){width="70%"}
+
+<div class="figure" style="text-align: center">
+<img src="images/electron-emission.png" alt="Two figures showed the electrons escaped the heated metal" width="80%" />
+<p class="caption">(\#fig:therm-emission)The electrons escape from the atom when they gained enough energy</p>
+</div>
+
+Source: [electrical4u.com](https://www.electrical4u.com/thermionic-emission/)
 
 There are **four** factors that affect the rate of thermionic emission.
 
@@ -54,7 +60,10 @@ There are **four** factors that affect the rate of thermionic emission.
 
 Here's a short video from Youtube about thermionic emission.
 
-![](https://www.youtube.com/watch?v=QhG7u9PXG88){width:"70%"}
+<div class="figure" style="text-align: center">
+<iframe src="https://www.youtube.com/watch?v=QhG7u9PXG88" width="100%" height="400px"></iframe>
+<p class="caption">(\#fig:therm-video)A YouTube video by SPM Malaysia IPTV on thermionic emission</p>
+</div>
 
 ### Cathode Ray
 
