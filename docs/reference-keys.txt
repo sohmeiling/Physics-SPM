@@ -1,6 +1,7 @@
 fig:atom-str
 fig:therm-emission
 fig:therm-video
+fig:cro-video
 force-and-motion
 resultant-force
 resolution-of-forces

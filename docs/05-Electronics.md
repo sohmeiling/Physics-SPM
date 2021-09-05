@@ -40,6 +40,7 @@ At room temperature, the energy processed by the electrons in the metal is insuf
 
 Source: [electrical4u.com](https://www.electrical4u.com/thermionic-emission/)
 
+
 There are **four** factors that affect the rate of thermionic emission.
 
 -   **The temperature of the metal**
@@ -61,7 +62,7 @@ There are **four** factors that affect the rate of thermionic emission.
 Here's a short video from Youtube about thermionic emission.
 
 <div class="figure" style="text-align: center">
-<iframe src="https://www.youtube.com/watch?v=QhG7u9PXG88" width="100%" height="400px"></iframe>
+<iframe src="https://www.youtube.com/embed/QhG7u9PXG88" width="100%" height="400px"></iframe>
 <p class="caption">(\#fig:therm-video)A YouTube video by SPM Malaysia IPTV on thermionic emission</p>
 </div>
 
@@ -85,9 +86,13 @@ The characteristics of cathode ray include:
 
 It will be great if you can learn how to draw the CRO. It will help you to be familiarize with the electron gun, deflection system, and fluorosecence screen that make up the CRO.
 
-See the great video below by alharony in youtube about CRO.
+See the great video below by [@alharony](https://www.youtube.com/channel/UCuZUDL8-qH-loievrjAqXHg) in YouTube about CRO. He explains the CRO by showing the inner components of cathode ray oscilloscope. 
 
-![](https://www.youtube.com/watch?v=U1amW7S1fcI)
+<div class="figure" style="text-align: center">
+<iframe src="https://www.youtube.com/embed/U1amW7S1fcI" width="100%" height="400px"></iframe>
+<p class="caption">(\#fig:cro-video)A YouTube video by alharony on cathode ray oscilloscope</p>
+</div>
+
 
 ### Electromagnetic Deflection in a Cathode Ray Tube
 
