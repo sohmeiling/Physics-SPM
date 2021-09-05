@@ -74,7 +74,7 @@ knitr::include_url("https://www.youtube.com/embed/QhG7u9PXG88", height = "400px"
 
 -   The cathode ray is produced using extra high tension (E.H.T) as shown in the Figure below.
 
-```{r cathode-ray-diff, echo=FALSE, fig.cap="In the first figure, the electrons move from cathode to anode", fig.alt= "Without diffraction, the electrons make the phosphor-coated screen glow directly across the hole in the anode."}
+```{r cathode-ray-diff, echo=FALSE, fig.cap= "The electrons move from cathode to anode.", fig.alt= "Without diffraction, the electrons make the phosphor-coated screen glow directly across the hole in the anode."}
 
 knitr::include_graphics("images/cathode-ray-production.png")
 
@@ -106,9 +106,14 @@ knitr::include_url("https://www.youtube.com/embed/U1amW7S1fcI", height = "400px"
 
 Aim: To observe the effect of electric field on a cathode ray using a deflection tube
 
-<iframe width="1918px" height="967px" frameborder="no" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" src="https://lab.concord.org/embeddable.html#interactives/interactions/crookesElectrodes.json"></iframe>
+```
+
+```{r crookes, echo=FALSE}
+
+knitr::include_app("https://lab.concord.org/embeddable.html#interactives/interactions/crookesElectrodes.json", height = "600px")
 
 ```
+
 
 ```{block,  type ="info"}
 #### Effect of Magnetic Field on the Cathode Rays

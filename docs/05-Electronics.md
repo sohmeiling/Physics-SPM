@@ -74,7 +74,7 @@ Here's a short video from Youtube about thermionic emission.
 
 <div class="figure" style="text-align: center">
 <img src="images/cathode-ray-production.png" alt="Without diffraction, the electrons make the phosphor-coated screen glow directly across the hole in the anode." width="100%" />
-<p class="caption">(\#fig:cathode-ray-diff)In the first figure, the electrons move from cathode to anode</p>
+<p class="caption">(\#fig:cathode-ray-diff)The electrons move from cathode to anode.</p>
 </div>
 
 Source: [topperlearning.com](https://www.topperlearning.com/answer/discovery-of-electron/w7idm3dd)
@@ -102,9 +102,10 @@ See the great video below by (alharony)(https://www.youtube.com/channel/UCuZUDL8
 <div class="try">
 <h4 id="effect-of-electric-field-on-the-cathode-rays">Effect of Electric Field on the Cathode Rays</h4>
 <p>Aim: To observe the effect of electric field on a cathode ray using a deflection tube</p>
-<iframe width="1918px" height="967px" frameborder="no" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" src="https://lab.concord.org/embeddable.html#interactives/interactions/crookesElectrodes.json">
-</iframe>
 </div>
+
+<iframe src="https://lab.concord.org/embeddable.html#interactives/interactions/crookesElectrodes.json?showcase=0" width="100%" height="600px"></iframe>
+
 
 <div class="info">
 <h4 id="effect-of-magnetic-field-on-the-cathode-rays">Effect of Magnetic Field on the Cathode Rays</h4>
