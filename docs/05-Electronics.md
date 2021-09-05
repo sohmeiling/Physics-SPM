@@ -73,7 +73,7 @@ Here's a short video from Youtube about thermionic emission.
 -   The cathode ray is produced using extra high tension (E.H.T) as shown in the Figure below.
 
 <div class="figure" style="text-align: center">
-<img src="images/cathode-ray-production.png" alt="Without diffraction, the electrons make the phosphor-coated screen glow directly across the hole in the anode." width="100%" />
+<img src="images/cathode-ray-production.png" alt="The electrons move from cathode to anode." width="100%" />
 <p class="caption">(\#fig:cathode-ray-diff)The electrons move from cathode to anode.</p>
 </div>
 
@@ -97,14 +97,51 @@ See the great video below by (alharony)(https://www.youtube.com/channel/UCuZUDL8
 </div>
 
 
+<div class="info">
+<p><strong>Additional Material</strong></p>
+<p>You can explore how the electron gun is used to emit the electrons</p>
+</div>
+
+<div class="figure" style="text-align: center">
+<iframe src="https://virtuelle-experimente.de/en/kanone/klassisch/aufbau.php" width="100%" height="400px"></iframe>
+<p class="caption">(\#fig:add-gun)A complicated simulation of electron gun</p>
+</div>
+
+
 ### Effects of Electrical Field and Magnetic Field on Cathode Rays
+
+How do we prove that cathode ray is a negatively-charged beam? Let's conduct the experiment using the simulation by [The Concord Consortium](https://concord.org/). 
+
+In this simulation, we are using Crookes Tube, which is a similar set-up to Thomson's experiment. It is through this experiment that Thomson discovered electron. 
+
+<iframe src="https://lab.concord.org/embeddable.html#interactives/interactions/crookesElectrodes.json?showcase=0" width="100%" height="600px"></iframe>
+
 
 <div class="try">
 <h4 id="effect-of-electric-field-on-the-cathode-rays">Effect of Electric Field on the Cathode Rays</h4>
-<p>Aim: To observe the effect of electric field on a cathode ray using a deflection tube</p>
+<p><strong>Aim:</strong> To observe the effect of electric field on a cathode ray using a deflection tube.</p>
+<p><strong>Instruction:</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Turn on the voltage.</p></li>
+<li><p>Change the electrode metal and observe.</p></li>
+<li><p>Adjust the charge on horizontal plates and observe the change in direction.</p></li>
+</ol>
+<p><strong>Observation:</strong> Based on your observations of the cathode rays, what you can determine about this stream of particles?</p>
+<p>Did you realise that:</p>
+<ul>
+<li><p>When the voltage off, there is no electron beam.</p></li>
+<li><p>When the high voltage is turned on, the cathode ray is moving in straight line when both plate have no charge.</p></li>
+<li><p>When the high voltage is turned on, the negatively-charged cathode ray deflect toward the positive plate and away from the negative plate.</p></li>
+</ul>
+<p>What are the reasons?</p>
+<ul>
+<li><p>Each atom has a charged substructure consisting of a nucleus, which is made of protons and neutrons, surrounded by electrons.</p></li>
+<li><p>The phenomenon can be explained by the attraction and repulsion between electric charges at the atomic scale.</p></li>
+</ul>
+<p><strong>Conclusion:</strong> The cathode ray can be deflected by electric field.</p>
 </div>
 
-<iframe src="https://lab.concord.org/embeddable.html#interactives/interactions/crookesElectrodes.json?showcase=0" width="100%" height="600px"></iframe>
+
 
 
 <div class="info">

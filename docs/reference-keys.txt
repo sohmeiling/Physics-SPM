@@ -3,6 +3,7 @@ fig:therm-emission
 fig:therm-video
 fig:cathode-ray-diff
 fig:cro-video
+fig:add-gun
 force-and-motion
 resultant-force
 resolution-of-forces

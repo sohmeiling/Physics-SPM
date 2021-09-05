@@ -62,7 +62,7 @@ There are **four** factors that affect the rate of thermionic emission. The *rat
 
 Here's a short video from Youtube about thermionic emission.
 
-```{r therm-video, echo=FALSE, fig.cap= "A YouTube video by SPM Malaysia IPTV on thermionic emission", fig.alt = "A video explanation on thermionic emission"}
+```{r therm-video, echo=FALSE, fig.cap= "A YouTube video by SPM Malaysia IPTV on thermionic emission"}
 
 knitr::include_url("https://www.youtube.com/embed/QhG7u9PXG88", height = "400px")
 
@@ -74,7 +74,7 @@ knitr::include_url("https://www.youtube.com/embed/QhG7u9PXG88", height = "400px"
 
 -   The cathode ray is produced using extra high tension (E.H.T) as shown in the Figure below.
 
-```{r cathode-ray-diff, echo=FALSE, fig.cap= "The electrons move from cathode to anode.", fig.alt= "Without diffraction, the electrons make the phosphor-coated screen glow directly across the hole in the anode."}
+```{r cathode-ray-diff, echo=FALSE, fig.cap= "The electrons move from cathode to anode."}
 
 knitr::include_graphics("images/cathode-ray-production.png")
 
@@ -99,20 +99,70 @@ knitr::include_url("https://www.youtube.com/embed/U1amW7S1fcI", height = "400px"
 ```
 
 
-### Effects of Electrical Field and Magnetic Field on Cathode Rays
+```{block, type="info"}
 
-```{block, type= "try"}
-#### Effect of Electric Field on the Cathode Rays
+**Additional Material**
 
-Aim: To observe the effect of electric field on a cathode ray using a deflection tube
+You can explore how the electron gun is used to emit the electrons
 
 ```
+
+```{r add-gun, echo=FALSE, fig.cap="A complicated simulation of electron gun"}
+
+knitr::include_url("https://virtuelle-experimente.de/en/kanone/klassisch/aufbau.php", height = "400px")
+
+```
+
+
+### Effects of Electrical Field and Magnetic Field on Cathode Rays
+
+How do we prove that cathode ray is a negatively-charged beam? Let's conduct the experiment using the simulation by [The Concord Consortium](https://concord.org/). 
+
+In this simulation, we are using Crookes Tube, which is a similar set-up to Thomson's experiment. It is through this experiment that Thomson discovered electron. 
 
 ```{r crookes, echo=FALSE}
 
 knitr::include_app("https://lab.concord.org/embeddable.html#interactives/interactions/crookesElectrodes.json", height = "600px")
 
 ```
+
+
+```{block, type= "try"}
+#### Effect of Electric Field on the Cathode Rays
+
+**Aim:** To observe the effect of electric field on a cathode ray using a deflection tube. 
+
+**Instruction:**
+
+1. Turn on the voltage.
+
+2. Change the electrode metal and observe.
+
+3. Adjust the charge on horizontal plates and observe the change in direction.
+
+
+**Observation:**
+Based on your observations of the cathode rays, what you can determine about this stream of particles?
+
+Did you realise that: 
+
+- When the voltage off, there is no electron beam.
+
+- When the high voltage is turned on, the cathode ray is moving in straight line when both plate have no charge.
+
+- When the high voltage is turned on, the negatively-charged cathode ray deflect toward the positive plate and away from the negative plate. 
+
+What are the reasons? 
+
+- Each atom has a charged substructure consisting of a nucleus, which is made of protons and neutrons, surrounded by electrons.
+
+- The phenomenon can be explained by the attraction and repulsion between electric charges at the atomic scale. 
+
+**Conclusion:** The cathode ray can be deflected by electric field. 
+
+```
+
+
 
 
 ```{block,  type ="info"}
