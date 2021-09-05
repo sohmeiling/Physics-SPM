@@ -30,8 +30,9 @@ Source: [pngfind.com](https://www.pngfind.com/download/howwhTh_los-quarks-quarks
 
 Thermionic emission is the emission of electrons from a heated metal with high level of thermal energy.
 
-At room temperature, the energy processed by the electrons in the metal is insufficient for thermionic emission. When a metal is heated, the electrons gain thermal energy. The increase in thermal energy leads to the increase of kinetic energy. Once sufficient thermal energy is supplied to the metal, the electrons gain enough energy to overcome the force of attraction between proton in the nucleus and electrons. Thus, the electrons escape to become free electrons.
+At room temperature, the energy processed by the electrons in the metal is insufficient for thermionic emission. When a metal is heated, the electrons gain thermal energy. The increase in thermal energy leads to the increase of kinetic energy.
 
+Once sufficient thermal energy is supplied to the metal, the electrons gain enough energy to overcome the force of attraction between proton in the nucleus and electrons. Thus, the electrons escape to become free electrons.
 
 <div class="figure" style="text-align: center">
 <img src="images/electron-emission.png" alt="Two figures showed the electrons escaped the heated metal" width="80%" />
@@ -40,8 +41,7 @@ At room temperature, the energy processed by the electrons in the metal is insuf
 
 Source: [electrical4u.com](https://www.electrical4u.com/thermionic-emission/)
 
-
-There are **four** factors that affect the rate of thermionic emission.
+There are **four** factors that affect the rate of thermionic emission. The *rate of emission* is the number of electrons emitted in 1 second.
 
 -   **The temperature of the metal**
 
@@ -68,6 +68,51 @@ Here's a short video from Youtube about thermionic emission.
 
 ### Cathode Ray
 
+-   Cathode ray is a beam of negatively-charged electrons moving at high speed in vacuum tube.
+
+-   The cathode ray is produced using extra high tension (E.H.T) as shown in the Figure below.
+
+<div class="figure" style="text-align: center">
+<img src="images/cathode-ray-production.png" alt="Without diffraction, the electrons make the phosphor-coated screen glow directly across the hole in the anode." width="100%" />
+<p class="caption">(\#fig:cathode-ray-diff)In the first figure, the electrons move from cathode to anode</p>
+</div>
+
+Source: [topperlearning.com](https://www.topperlearning.com/answer/discovery-of-electron/w7idm3dd)
+
+-   Inside the vacuum tube, there is one positive electrode called anode and one negative electode called cathode. (Note. Check the terminals of the E.H.T)
+
+- When a high-voltage electric current is passed through the discharge tube containing a gas at a very low pressure, streams of electrons move at high speed in the vacuum tube.
+
+- The hot cathode (connected to the negative terminal) continuously emits electrons towards the anode (connected to the positive terminal). 
+
+- A green fluorescence is seen coming out of the other end of the discharge tube.
+
+We can understand cathode ray using the **cathode ray oscilloscope**. Cathode ray oscilloscope (CRO)is made up of electron gun, deflection system, and fluorosecence screen. 
+
+See the great video below by (alharony)(https://www.youtube.com/channel/UCuZUDL8-qH-loievrjAqXHg) on the structure of CRO.
+
+<div class="figure" style="text-align: center">
+<iframe src="https://www.youtube.com/embed/U1amW7S1fcI" width="100%" height="400px"></iframe>
+<p class="caption">(\#fig:cro-video)A YouTube video by alharony on cathode ray oscilloscope</p>
+</div>
+
+
+### Effects of Electrical Field and Magnetic Field on Cathode Rays
+
+<div class="try">
+<h4 id="effect-of-electric-field-on-the-cathode-rays">Effect of Electric Field on the Cathode Rays</h4>
+<p>Aim: To observe the effect of electric field on a cathode ray using a deflection tube</p>
+<iframe width="1918px" height="967px" frameborder="no" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" src="https://lab.concord.org/embeddable.html#interactives/interactions/crookesElectrodes.json">
+</iframe>
+</div>
+
+<div class="info">
+<h4 id="effect-of-magnetic-field-on-the-cathode-rays">Effect of Magnetic Field on the Cathode Rays</h4>
+<p>Aim: To observe the effect of magnetic field on cathode rays using a Maltese Cross Tube</p>
+<p>When the power supply is switched on, a da</p>
+<p>Source: [Harvard Natural Science Lecture Demonstrations] (<a href="https://sciencedemonstrations.fas.harvard.edu/presentations/maltese-cross-crt" class="uri">https://sciencedemonstrations.fas.harvard.edu/presentations/maltese-cross-crt</a>)</p>
+</div>
+
 The characteristics of cathode ray include:
 
 1.  Cathode ray is a negatively-charged electron beam.
@@ -82,16 +127,6 @@ The characteristics of cathode ray include:
 
 6.  Cathode ray can produce a fluorescent effect when the electron beam hits the fluorescent screen.
 
-### Cathode Ray Oscilloscope (CRO)
-
-It will be great if you can learn how to draw the CRO. It will help you to be familiarize with the electron gun, deflection system, and fluorosecence screen that make up the CRO.
-
-See the great video below by [@alharony](https://www.youtube.com/channel/UCuZUDL8-qH-loievrjAqXHg) in YouTube about CRO. He explains the CRO by showing the inner components of cathode ray oscilloscope. 
-
-<div class="figure" style="text-align: center">
-<iframe src="https://www.youtube.com/embed/U1amW7S1fcI" width="100%" height="400px"></iframe>
-<p class="caption">(\#fig:cro-video)A YouTube video by alharony on cathode ray oscilloscope</p>
-</div>
 
 
 ### Electromagnetic Deflection in a Cathode Ray Tube

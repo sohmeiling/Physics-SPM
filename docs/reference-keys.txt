@@ -1,6 +1,7 @@
 fig:atom-str
 fig:therm-emission
 fig:therm-video
+fig:cathode-ray-diff
 fig:cro-video
 force-and-motion
 resultant-force
@@ -29,7 +30,7 @@ what-you-will-learn
 electron
 thermionic-emission
 cathode-ray
-cathode-ray-oscilloscope-cro
+effects-of-electrical-field-and-magnetic-field-on-cathode-rays
 electromagnetic-deflection-in-a-cathode-ray-tube
 semiconductor-diode
 forward-biased-vs.-reverse-biased
